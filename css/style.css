@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    color:  #673ab7 ;
+    text-align: center;
+}
+
+
+body {
+    background-color: #9fa8da;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    margin: 20px;
+    color:   #673ab7  ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: black 1px dotted;
+    position: relative;
+    /* Lo acomode con position porque sino quedaba en cualquier lado. No se si hay  otra forma de hacerlo sin usar flexfox o grid */
+    left: 220px;
+    bottom: 80px;
+}
+
+
+#encabezado {
+    border: solid black 4px;
+    background-color: white;
+    padding: 10px;
+    height: 200px;
+
+}
+
+/* Es el logo del header. Lo acomode con position porque sino quedaba en cualquier lado. No se si hay otra forma de hacerlo sin usar flexbox */
+.logo {
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+    position: relative;
+    bottom: 80px;
+    left: 250px;
+}
+
+
+/* MAIN */
+
+.textos {
+    text-align: justify;
+    font-size: 20 px;
+    margin: 30px;
+
+}
+
+section ul {
+    border: 1px black solid;
+    height: auto;
+    width: fit-content;
+    padding: 30px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+.divPrincipal {
+    text-align: center;
+}
+
+
+.cursos {
+    border: black solid 2px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contacto {
+    /* border: black solid 2px; */
+    height: auto;
+    width: fit-content;
+    padding: 30px;
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        "div form"
+}
+
+/* FOOTER */
+
+footer {
+    border: 1px solid black;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+form {
+    text-align: center;
+}
